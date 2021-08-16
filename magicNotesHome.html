@@ -9,7 +9,6 @@
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
-    <script src="./js/app.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -34,7 +33,9 @@
                 </ul>
                 <form class="d-flex">
                     <input id ="searchTxt" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <!-- <input id ="searchNote" class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
                     <button class="btn btn-outline-success" type="submit">Search</button>
+                    <!-- <button onclick="searchNote()" class="btn btn-outline-success btn-sm" id="searchNote">Search</button> -->
                 </form>
             </div>
         </div>
@@ -65,6 +66,7 @@
                 </div>
                 <br>
                 <button class="btn btn-primary" id="addBtn">Add Note</button>
+                <!-- <button onclick="addNote()" class="btn btn-primary" id="addNote">Add Note</button> -->
             </div>
         </div>
         <br>
@@ -76,5 +78,6 @@
         </div>
     </div>    
 </body>
+<script src="./js/homePage.js"></script>
 
 </html>
